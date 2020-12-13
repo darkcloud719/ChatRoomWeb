@@ -12422,6 +12422,23 @@
         }
       },
       {
+        "HashCode": 1133323935,
+        "Kind": "MVC.ViewComponent",
+        "Name": "__Generated__RoomViewComponentTagHelper",
+        "AssemblyName": "ChatRoomWeb",
+        "CaseSensitive": false,
+        "TagMatchingRules": [
+          {
+            "TagName": "vc:room"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "ITagHelper",
+          "Common.TypeName": "__Generated__RoomViewComponentTagHelper",
+          "MVC.ViewComponent.Name": "Room"
+        }
+      },
+      {
         "HashCode": 1912741130,
         "Kind": "Components.Bind",
         "Name": "Bind",
@@ -14390,6 +14407,57 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "ChatRoomWeb",
-  "Documents": [],
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\Home\\Private.cshtml",
+      "TargetPath": "Views\\Home\\Private.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\Home\\Chat.cshtml",
+      "TargetPath": "Views\\Home\\Chat.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\Home\\Find.cshtml",
+      "TargetPath": "Views\\Home\\Find.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\Shared\\Components\\Room\\Default.cshtml",
+      "TargetPath": "Views\\Shared\\Components\\Room\\Default.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\Account\\Login.cshtml",
+      "TargetPath": "Views\\Account\\Login.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Nick-PC\\Desktop\\GitProject\\ChatRoomWeb\\Views\\Account\\Register.cshtml",
+      "TargetPath": "Views\\Account\\Register.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.2"
 }

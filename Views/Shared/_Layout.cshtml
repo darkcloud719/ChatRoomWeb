@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" Content="ie=edge">
+        <title>ChatRoomWeb By Nick</title>
+        <link rel="stylesheet" href="~/css/site.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <a asp-controller="Home" asp-action="Index">Home</a>
+            <a asp-controller="Home" asp-action="Find">Find</a>
+            <a asp-controller="Home" asp-action="Private">Private</a>
+        </div>
+        <div class="main">
+            <div class="side-menu">
+                @if(User.Identity.IsAuthenticated)
+                {
+                    <vc:room></vc:room>
+                }
+            </div>
+            <div class="chat">
+                @RenderBody()
+            </div>
+        </div>
+        <div class="modal" id="create-room-modal">
+            <form class="modal-body" method="post" asp-action="CreateRoom">
+                <button type="button" class="close" onclick="closeModal()">
+                    X
+                </button>
+                <header>Create Room</header>
+                <div>
+                    <input name="name">
+                </div>
+                <footer>
+                    <button>Create</button>
+                </footer>
+            </form>
+        </div>
+        <script src="~/js/site.js"></script>
+        @RenderSection("scripts", false)
+    </body>
+</html>
